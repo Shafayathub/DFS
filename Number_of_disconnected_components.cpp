@@ -13,7 +13,6 @@ void dfs(int src)
         if (!vis[child])
         {
             dfs(child);
-            vis[child] = true;
         }
     }
 }
